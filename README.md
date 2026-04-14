@@ -2,6 +2,8 @@
 
 Git Gandalf is a local LLM-powered pre-commit code reviewer. It hooks into your git workflow to analyze the staged diff before you commit, identifying potential risks and issues. It runs entirely locally—without external API dependencies—ensuring privacy and security.
 
+https://swap.notion.site/Git-Gandalf-Local-LLM-Powered-Pre-Commit-Code-Reviewer-2e1a4d37f7498088b1b3ebe5fbae0a8c
+
 ## Requirements
 
 - **Node.js**: v18.0.0 or higher (required for the native `fetch` API).
