@@ -68,7 +68,7 @@ process.stdin.on("end", async () => {
   try {
     const rawOutput = await callLLM(finalPrompt);
     review = normalizeReview(rawOutput);
-  } catch (error) {
+  } catch (err) {
      const isToolFailure =
        err.message.includes("not reachable") ||
        err.message.includes("timed out");
